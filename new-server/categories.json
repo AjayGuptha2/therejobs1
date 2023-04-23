@@ -1,0 +1,70 @@
+{
+    "categories" : [
+        {
+            "id": 1,
+            "img": "/images/4.png",
+            "name": "Food and Catering",
+            "vacancy": "12 Jobs",
+            "sub1": "Chefs and Cooks",
+            "sub2": "Catering Managers",
+            "sub3": "Servers",
+            "sub4": "Bartenders",
+            "sub5": "Dishwashers"
+        },
+        {
+            "id": 2,
+            "img": "/images/9.png",
+            "name": "Admin/Backoffice",
+            "vacancy": "10 Jobs",
+            "sub1": "Telecommunications Technicians",
+            "sub2": "Network Engineers",
+            "sub3": "Customer Services",
+            "sub4": "Sales Representatives",
+            "sub5": "Project Managers"
+        },
+        {
+            "id": 3,
+            "img": "/images/21.png",
+            "name": "Consulting",
+            "vacancy": "10 Jobs",
+            "sub1": "Management Consultants",
+            "sub2": "Financial Consultants",
+            "sub3": "IT Consultants",
+            "sub4": "Human Resources Consultants",
+            "sub5": "Marketing Consultants"
+        },
+        {
+            "id": 4,
+            "img": "/images/construct.png",
+            "name": "Construction",
+            "vacancy": "10 Jobs",
+            "sub1": "Carpenters",
+            "sub2": "Masons",
+            "sub3": "Electricians",
+            "sub4": "Plumbers",
+            "sub5": "Roofers"
+        },
+        {
+            "id": 5,
+            "img": "/images/medical.png",
+            "name": "Medical",
+            "vacancy": "10 Jobs",
+            "sub1": "Doctors",
+            "sub2": "Nurses",
+            "sub3": "Pharmacists",
+            "sub4": "Medical Assistants",
+            "sub5": "Physical Therapists"
+        },
+        {
+            "id": 6,
+            "img": "/images/transport.png",
+            "name": "Transportation",
+            "vacancy": "10 Jobs",
+            "sub1": "Truck Drivers",
+            "sub2": "Bus Drivers",
+            "sub3": "Taxi Drivers & Chauffers",
+            "sub4": "Couriers and Messengers",
+            "sub5": "Dispatchers"
+        }
+    ]
+}

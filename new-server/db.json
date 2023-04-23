@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "id": "sairaja2002",
+      "name": "Sai Raja",
+      "password": "sairaja@2002",
+      "email": "shanigarapusairaja2002@gmail.com",
+      "phone": "8555080811"
+    },
+    {
+      "id": "charan2002",
+      "name": "SaiCharan",
+      "password": "thurpati",
+      "email": "saicharan@gmail.com",
+      "phone": "8555080811"
+    },
+    {
+      "id": "sairaja",
+      "name": "sairraj",
+      "password": "thurpati1",
+      "email": "saicharan1@gmail.com",
+      "phone": "8555080811"
+    }
+  ]
+}
