@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import './App.css';
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 /* import Post from './components/Post'; */
 import Login from './components/Login';
 import Employer from './components/Employer';
@@ -23,30 +23,30 @@ import Store from './Redux/Store';
 /* import Box from '@mui/material/Box';
 import Container from '@mui/material/Container'; */
 function App() {
-  
+
   return (
     <Provider store={Store}>
-    <div className='App'>
+      <div className='App'>
         <Navbar />
-        
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/employer/:id' element={<Employer/>}/>
-          <Route path='/postemployer' element={<HorizontalLinearStepper />}/>
 
-          <Route path='/testemployer' element={<TestEmployer/>}/>
-          <Route path='/register' element={<Register/>}/>
-          <Route path='/employerform' element={<EmployerForm/>}/>
-          <Route path='/employeeform' element={<EmployeeForm/>}/>
-          <Route path='/subscription' element={<Subscription/>}/>
-          <Route path='/dashboard' element={<Dashboard/>}/>
-          <Route path='/postjob' element={<Postjob/>}/>
-          <Route path='/signup' element={<Signup/>}/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/employer/:id' element={<Employer />} />
+          <Route path='/postemployer' element={<HorizontalLinearStepper />} />
+
+          <Route path='/testemployer' element={<TestEmployer />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/employerform' element={<EmployerForm />} />
+          <Route path='/employeeform' element={<EmployeeForm />} />
+          <Route path='/subscription' element={<Subscription />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/postjob' element={<Postjob />} />
+          <Route path='/signup' element={<Signup />} />
         </Routes>
         <ToastContainer ></ToastContainer>
         <Footer />
-    </div>
+      </div>
     </Provider>
   );
 }

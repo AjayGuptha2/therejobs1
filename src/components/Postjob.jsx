@@ -1,5 +1,7 @@
 import React from 'react'
-import { Grid } from 'swiper'
+// import { Grid } from 'swiper'
+import { Grid } from '@material-ui/core';
+
 const Postjob = () => {
   return (
     <div>
